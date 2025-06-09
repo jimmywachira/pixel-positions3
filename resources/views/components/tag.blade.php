@@ -11,5 +11,5 @@
           $classes = ' px-3 py-1 text-xm';
         }
     @endphp
-
-   {{-- <a href="/tags/{{ strtolower($tag->name) }}" class="{{ $classes }}">{{ ucwords($tag->name) }}</a> --}}
+    
+<a href="/tags/{{ strtolower($tag->name) }}" class="{{ $classes }}">{{ ucwords($tag->name) }}</a>
