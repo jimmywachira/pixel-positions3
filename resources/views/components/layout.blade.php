@@ -9,17 +9,17 @@
 
     <script src="https://cdn.tailwindcss.com">
     </script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body 
-    class="h-full antialiased capitalize font-semibold bg-gray-900 text-white pb-20" 
-    style="font-family:Outfit"
+    class="h-full antialiased capitalize font-semibold bg-black text-white pb-20" 
+    style="font-family:Quicksand"
     >
 
-    <div class="px-10">
+    <div class="px-5">
         <nav class="flex justify-between items-center py-4 ">
             <div>
                 <a href="/">

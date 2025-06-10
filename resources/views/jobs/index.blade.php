@@ -15,7 +15,7 @@
         </x-section-heading>
 
         <div class="grid mt-6 lg:grid-cols-3 gap-8">
-            @foreach ($jobs as $job)
+            @foreach ($featuredJobs as $job)
                 <x-job-card :$job/>
             @endforeach
         </div>
