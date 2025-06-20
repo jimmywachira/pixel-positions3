@@ -11,7 +11,8 @@ class StoreJobRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        // return false;
+        return true;
     }
 
     /**
@@ -23,6 +24,15 @@ class StoreJobRequest extends FormRequest
     {
         return [
             //
+                 // Define your validation rules here, e.g.:
+            // 'title' => ['required', 'string', 'max:255'],
+            // 'description' => ['required', 'string'],
+            // 'salary' => ['nullable', 'string', 'max:255'],
+            // 'location' => ['required', 'string', 'max:255'],
+            // 'schedule' => ['required', 'string', 'max:255'], // e.g., 'Full-time'
+            // 'url' => ['required', 'url'],
+            // 'tags' => ['nullable', 'string'], // If tags are comma-separated
+            // 'featured' => ['boolean']
         ];
     }
 }

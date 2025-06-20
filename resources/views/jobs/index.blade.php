@@ -28,19 +28,19 @@
 
                 <div class="mt-6 space-x-1">
                         
-                    @foreach($tags as $tag)
-                        <x-tag :tag="$tag"/>
-                    @endforeach
+               @foreach($tags as $tag)
+                        <x-tag :$tag/>
+                @endforeach
 
         </div>
     </section>
 
-        <section>
+    <section>
         <x-section-heading>
             recent jobs
         </x-section-heading>
 
-       <div class="mt-6 space-x-1  space-y-6">
+       <div class="mt-6 space-y-6">
             @foreach ($jobs as $job)
                 <x-job-card-wide :$job/>
             @endforeach
