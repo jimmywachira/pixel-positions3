@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="space-y-10">
+    <div class="flex flex-col justify-center space-y-10">
 
         <section class="text-center">
             <h1 class="font-bold text-4xl">lets find your next job</h1>
